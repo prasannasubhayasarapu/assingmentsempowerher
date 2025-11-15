@@ -2,82 +2,110 @@
 <html lang="en">
 <head>
   <style>
+
 .card-container {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(2,1fr);
-    gap: 20px;
-    grid-template-rows: repeat(3,1fr);
-    align-items: center;
-    background-color: #f0f0f0;
+    display: flex;
+   flex-direction: row;
+   justify-content:center;
+   gap: 20px;
+    padding: 20px;
+    background-color: #f5f5f5   ;
 }
 .card-container .product-card {
     background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 16px;
+   
     text-align: center;
+     border-radius: 16px;
+    width: 18%;
+    box-shadow: 4px 4px 10px rgba(0, 0.1, 0.3, 0.3);
+    gap: 10px;
+    
+
    
 }
-.card-container .product-card:nth-child(1){
-    grid-row: 1/4;
-    grid-column: 1/2;
+.card-container .product-title{
+    font-size: 18px;
+    font-weight: bold;
+    margin:10px;
+      color: #777;
+   
 }
+div>div>img{
+  width: 100%;
+  border-top-left-radius: 12px;
+    border-top-right-radius: 12px;  
+}
+div>div>img.logo{
+    width: 50%;
+    height:60px;
+    margin: 0px;
+    
+}
+div .product-description{
+    font-size: 14px;
+  
+ margin: 0;
+}
+
   </style>
     <title>Document</title>
 </head>
 <body>
     <div class="card-container">
         <div class="product-card">
-            <img src="https://via.placeholder.com/150" alt="Product Image" class="product-image">
-            <h2 class="product-title">Product Title</h2>
-            <p class="product-description">This is a brief description of the product. It highlights key features and benefits.</p>
-            <span class="product-price">$29.99</span>
-            <button class="buy-now-button">Buy Now</button>
+            <img src="https://cdn.masaischool.com/masai-website/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" alt="Product Image" class="product-image">
+            <h2 class="product-title">Vijay Shekhar Sharma</h2>
+            <p class="product-description">Founder & CEO</p>
+<img src="https://cdn.masaischool.com/masai-website/paytm_rect_06df45a24f.svg" class="logo">
         </div>
-        <div class="product-card">
-            <img src="https://via.placeholder.com/150" alt="Product Image" class="product-image">
-            <h2 class="product-title">Product Title</h2>
-            <p class="product-description">This is a brief description of the product. It highlights key features and benefits.</p>
-            <span class="product-price">$29.99</span>
-            <button class="buy-now-button">Buy Now</button>
+          <div class="product-card">
+            <img src="https://cdn.masaischool.com/masai-website/Rectangle_427_637d69bb57.png" alt="Product Image" class="product-image">
+            <h2 class="product-title">Kunal Shah</h2>
+            <p class="product-description">Founder</p>
+<img src="https://cdn.masaischool.com/masai-website/cred_0a47d7b4f8.png" class="logo">
         </div>
-        <div class="product-card">
-            <img src="https://via.placeholder.com/150" alt="Product Image" class="product-image">
-            <h2 class="product-title">Product Title</h2>
-            <p class="product-description">This is a brief description of the product. It highlights key features and benefits.</p>
-            <span class="product-price">$29.99</span>
-            <button class="buy-now-button">Buy Now</button>
+          <div class="product-card">
+            <img src="https://cdn.masaischool.com/masai-website/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" alt="Product Image" class="product-image">
+            <h2 class="product-title">Amrish Rau</h2>
+            <p class="product-description">CEO</p>
+<img src="https://cdn.masaischool.com/masai-website/pine_labs_0aa2407434.png" class="logo">
         </div>
-         <div class="product-card">
-            <img src="https://via.placeholder.com/150" alt="Product Image" class="product-image">
-            <h2 class="product-title">Product Title</h2>
-            <p class="product-description">This is a brief description of the product. It highlights key features and benefits.</p>
-            <span class="product-price">$29.99</span>
-            <button class="buy-now-button">Buy Now</button>
+          <div class="product-card">
+            <img src="https://cdn.masaischool.com/masai-website/Sampad_swain_Instamojo_f12bf6341e.jpg" alt="Product Image" class="product-image">
+            <h2 class="product-title">Sampad Swain</h2>
+            <p class="product-description">Co-Founder & CEO</p>
+<img src="https://cdn.masaischool.com/masai-website/instamojo_8763e704f7.png" class="logo">
         </div>
-         <div class="product-card">
-            <img src="https://via.placeholder.com/150" alt="Product Image" class="product-image">
-            <h2 class="product-title">Product Title</h2>
-            <p class="product-description">This is a brief description of the product. It highlights key features and benefits.</p>
-            <span class="product-price">$29.99</span>
-            <button class="buy-now-button">Buy Now</button>
-        </div>
-         <div class="product-card">
-            <img src="https://via.placeholder.com/150" alt="Product Image" class="product-image">
-            <h2 class="product-title">Product Title</h2>
-            <p class="product-description">This is a brief description of the product. It highlights key features and benefits.</p>
-            <span class="product-price">$29.99</span>
-            <button class="buy-now-button">Buy Now</button>
-        </div>
+       
 
-         <div class="product-card">
-            <img src="https://via.placeholder.com/150" alt="Product Image" class="product-image">
-            <h2 class="product-title">Product Title</h2>
-            <p class="product-description">This is a brief description of the product. It highlights key features and benefits.</p>
-            <span class="product-price">$29.99</span>
-            <button class="buy-now-button">Buy Now</button>
+    </div>
+       <div class="card-container">
+        <div class="product-card">
+            <img src="https://cdn.masaischool.com/masai-website/Ankush_Sachdeva_Sharechat_4e44dbbe6b.jpg" alt="Product Image" class="product-image">
+            <h2 class="product-title">Ankush Sachdeva</h2>
+            <p class="product-description">Co-Founder & CEO</p>
+<img src="https://cdn.masaischool.com/masai-website/sharechat_rect_73d95cd4e1.svg" class="logo">
         </div>
+          <div class="product-card">
+            <img src="https://cdn.masaischool.com/masai-website/bhanu_pratap_singh_sharechat_11fdd7b47a.jpg" alt="Product Image" class="product-image">
+            <h2 class="product-title">Bhanu Pratap Singh</h2>
+            <p class="product-description">Co-Founder & CTO</p>
+<img src="https://cdn.masaischool.com/masai-website/sharechat_rect_73d95cd4e1.svg" class="logo">
+        </div>
+          <div class="product-card">
+            <img src="https://cdn.masaischool.com/masai-website/Vipin_Pathak_Care24_acd02cd173.jpg" alt="Product Image" class="product-image">
+            <h2 class="product-title">Vipin Pathak</h2>
+            <p class="product-description">Co-Founder & CEO</p>
+<img src="https://cdn.masaischool.com/masai-website/care24_1164f7a2cd.png" class="logo">
+        </div>
+          <div class="product-card">
+            <img src="https://cdn.masaischool.com/masai-website/Ramakant_Sharma_livespace_0308e3627d.jpg" alt="Product Image" class="product-image">
+            <h2 class="product-title">Ramakant Sharma</h2>
+            <p class="product-description">Founder</p>
+<img src="https://cdn.masaischool.com/masai-website/livspace_f9318b2e8d.png" class="logo">
+        </div>
+       
+
     </div>
 </body>
 </html>
